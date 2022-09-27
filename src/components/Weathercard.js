@@ -34,6 +34,7 @@ function Weathercard() {
           type="text"
           id="formGroupExampleInput"
           placeholder="Enter City Name"
+          autoComplete="off"
           onChange={getName}
         />
         <button type="submit" onClick={getData}>
